@@ -132,3 +132,137 @@ body {
     background: rgb(240, 240, 240);
     
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+  html, body {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    position: relative !important;
+    font-size: 16px !important;
+  }
+
+  * {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  #header {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 18px 5px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .navbar {
+    width: auto !important;
+  }
+
+  .navbar ul {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 12px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+  }
+
+  .navbar a {
+    font-size: 1rem !important;
+    padding: 6px 10px !important;
+  }
+
+  .btns {
+    display: none !important;
+  }
+
+  .about {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto 1.5rem auto !important;
+    padding: 0 32px !important;
+    box-sizing: border-box !important;
+    text-align: left !important;
+    white-space: normal !important;
+    float: none !important;
+    
+    font-size: 24px !important;
+    line-height: 1.6 !important;
+  }
+  .grid-container {
+    display: flex !important;
+    flex-direction: column !important;
+    position: static !important;
+    float: none !important;
+    
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 16px !important;
+    box-sizing: border-box !important;
+    margin-top: 30px !important;
+  }
+
+  .box {
+    grid-area: auto !important;
+    width: 100% !important;
+    height: 200px !important;
+    margin-bottom: 15px !important;
+  }
+  
+  .grid-container {
+    display: flex !important;
+    flex-direction: column !important;
+    position: static !important;
+    float: none !important;
+    
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 32px !important;
+    box-sizing: border-box !important;
+    margin-top: 40px !important;
+  }
+
+  .box {
+    grid-area: auto !important;
+    width: 100% !important;
+    height: 250px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .grid-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    
+    position: static !important;
+    float: none !important;
+    clear: both !important;
+    
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 40px 0 0 0 !important;
+    padding: 0 32px !important;
+    box-sizing: border-box !important;
+  }
+
+  .box {
+    grid-area: auto !important;
+    
+    width: 70vw !important;
+    height: 70vw !important;
+    max-width: 320px !important;
+    max-height: 320px !important;
+    
+    margin: 0 auto 20px auto !important;
+  }
+}

@@ -290,6 +290,10 @@ p.about {
     max-width: 300px;
     max-height: 300px;
   }
+
+  .gallery-large img {
+    padding: 10px;
+  }
 }
 
 .gallery-large {

@@ -347,15 +347,16 @@ p.about {
   margin-top: 0;
   grid-column: 1 / -1;
   text-align: center;
+  font-size: 1.3em;
 }
 .newsletter-form {
   grid-column: 1 / -1;
   text-align: center;
   border: 2px solid rgb(162, 161, 161);
   border-radius: 10px;
-  max-width: 400px;
-  margin: 2em auto 0; 
-  padding: 2em;
+  max-width: 460px;
+  margin: 2em auto 0;
+  padding: 2.4em;
 }
 .newsletter-form form {
   display: flex;
@@ -364,9 +365,27 @@ p.about {
 }
 .newsletter-form input[type="submit"] {
   margin-top: 1em;
+  font-size: 1.35em;
+  padding: 0.4em 1.3em;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: rgb(164, 226, 255);
+  background-color: rgb(164, 226, 255);
+}
+.newsletter-form input[type="submit"]:hover {
+  background-color: rgb(107, 200, 244);
+  border-color: rgb(107, 200, 244);
+  transition: background-color 0.3s;
+  transition: border-color 0.3s;
 }
 .newsletter-form input[type="email"] {
   margin-top: 1.5em;
   border: 0.5px solid rgb(162, 161, 161);
   border-radius: 5px;
+  font-size: 1.35em;
+  padding: 0.2em 0.4em;
 }
+.newsletter-form label {
+  font-size: 1.35em;
+}
+

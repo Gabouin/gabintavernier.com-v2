@@ -33,6 +33,7 @@ body {
   width: var(--text-col);
   display: flex;
   justify-content: center;
+  margin-left: 0.6em;
 }
 
 .navbar ul {
@@ -73,6 +74,13 @@ body {
 .btns {
   display: flex;
   margin-right: 5em;
+}
+
+.badge-placeholder {
+  width: 88px;
+  height: 31px;
+  border: 1px dashed rgb(185, 185, 185);
+  border-radius: 4px;
 }
 
 .btn,
@@ -140,12 +148,13 @@ p.about {
   background-color: #f7f3e8;
   position: relative;
   overflow: hidden;
+}
+.box-image {
+  position: absolute;
+  inset: 0;
   transition: background-position 1.1s ease, background-size 1.1s ease;
 }
-.box:hover {
-  background-position: center top;
-}
-.box-4 {
+.box-4 .box-image {
   background-image: url(images/perdican\ remove.png);
   background-size: 100%;
   background-position: center;
@@ -154,26 +163,30 @@ p.about {
 .box-4 .box-label {
   opacity: 0;
 }
-.box-4:hover {
-  background-size: 180%;
+.box-4:hover .box-image,
+.box-4.is-active .box-image {
+  background-size: 160%;
   background-position: center -25%;
 }
-.box-4:hover .box-label {
+.box-4:hover .box-label,
+.box-4.is-active .box-label {
   opacity: 1;
 }
-.box-3 {
+.box-3 .box-image {
   background-image: url(images/picasso-removed.png);
   background-size: 140%;
   background-position: center 40%;
   background-repeat: no-repeat;
 }
-.box-3:hover {
+.box-3:hover .box-image,
+.box-3.is-active .box-image {
   background-position: center 20%;
 }
 .box-3 .box-label {
   opacity: 0;
 }
-.box-3:hover .box-label {
+.box-3:hover .box-label,
+.box-3.is-active .box-label {
   opacity: 1;
 }
 .box-label {
@@ -427,4 +440,3 @@ p.about {
 .newsletter-form label {
   font-size: 1.35em;
 }
-

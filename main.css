@@ -137,7 +137,7 @@ p.about {
 .box-4 { grid-area: box-4; }
 
 .box {
-  background-color: beige;
+  background-color: #f7f3e8;
   position: relative;
   overflow: hidden;
   transition: background-position 1.1s ease, background-size 1.1s ease;

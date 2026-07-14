@@ -78,15 +78,31 @@ body {
 .btns {
   display: flex;
   gap: 1em;
-  margin-right: 2em;
+  margin-right: 3em;
 }
-.github-link,
 .instagram-link {
-  text-decoration: wavy;
-  text-decoration-color: black;
+  text-decoration-style: solid;
+  text-decoration-color: rgb(95, 95, 95);
   color: rgb(95, 95, 95);
   font-size: 1.1em;
-
+}
+.github-link {
+  text-decoration-style: none;
+  text-decoration-color: rgb(95, 95, 95);
+  color: rgb(95, 95, 95);
+  font-size: 1.1em;
+}
+.instagram-link:hover {
+  text-decoration-style: wavy;
+  text-decoration-color: rgb(0, 136, 255);
+  color: rgb(95, 95, 95);
+  font-size: 1.1em;
+}
+.github-link:hover {
+  text-decoration-style: wavy;
+  text-decoration-color: rgb(0, 136, 255);
+  color: rgb(95, 95, 95);
+  font-size: 1.1em;
 }
 .badge-placeholder {
   width: 88px;

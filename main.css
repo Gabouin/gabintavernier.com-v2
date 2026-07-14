@@ -86,13 +86,10 @@ body {
 }
 
 .pagering-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
   display: flex;
   justify-content: center;
   padding: 0.5em 0;
+  margin-top: auto;
 }
 
 .btn,
@@ -308,6 +305,21 @@ p.about {
     grid-column: unset;
     width: 100%;
     margin-top: 8%;
+  }
+
+  .articles {
+    width: 90%;
+  }
+
+  .article-title,
+  .article-wip {
+    margin-left: 0;
+  }
+
+  .newsletter-grid,
+  .newsletter-form {
+    width: min(90%, 500px);
+    margin: 1.5em auto 0;
   }
 }
 
@@ -542,9 +554,12 @@ p.about {
   
 }
 .newsletter-grid {
-  grid-column: 1/-1;
-  margin-left: 7%;
-  margin-right: 45%;
+  grid-column: 1;
+  grid-row: 3;
+  align-self: start;
+  margin-left: 13%;
+  margin-right: 0;
+  margin-top: 2em;
   display: grid;
   grid-template-columns: 1fr;
   gap: 1em;
@@ -606,7 +621,5 @@ footer {
 }
 .blog-page {
   min-height: calc(100vh - 16px);
-  padding-bottom: 4em;
-  align-content: start;
-  padding-bottom: 4em;
+  grid-template-rows: auto auto 1fr auto;
 }

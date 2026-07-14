@@ -306,21 +306,6 @@ p.about {
     width: 100%;
     margin-top: 8%;
   }
-
-  .articles {
-    width: 90%;
-  }
-
-  .article-title,
-  .article-wip {
-    margin-left: 0;
-  }
-
-  .newsletter-grid,
-  .newsletter-form {
-    width: min(90%, 500px);
-    margin: 1.5em auto 0;
-  }
 }
 
 @media screen and (max-width: 600px) {
@@ -437,7 +422,7 @@ p.about {
   color: rgb(95, 95, 95);
   text-align: center;
   margin-top: 0;
-  font-size: 1.1em;
+  font-size: 1.5em;
   margin-bottom: 0.8em;
 }
 .newsletter-description {
@@ -497,13 +482,14 @@ p.about {
   align-self: start;
   text-align: center;
   border-radius: 10px;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0em auto 0;
   padding: 1em;
+  margin-top: 8%;
 }
 .newsletter-form form {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   gap: 0.8em;
 }
@@ -532,7 +518,7 @@ p.about {
 .newsletter-form input[type="email"] {
   border: 0.5px solid rgb(162, 161, 161);
   border-radius: 5px;
-  font-size: 1em;
+  font-size: 1.2em;
   padding: 0.2em 0.4em;
 }
 .newsletter-form label {
@@ -575,6 +561,7 @@ p.about {
   font-size: 1.2em;
   font-weight: bold;
   color: black;
+  text-align: center;
 }
 .news1-description {
   color: rgb(59, 59, 59)
@@ -587,6 +574,8 @@ footer {
   text-align: center;
   margin-bottom: 1.5em;
   margin-top: 1.5em;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 .projects-link { 
@@ -622,4 +611,36 @@ footer {
 .blog-page {
   min-height: calc(100vh - 16px);
   grid-template-rows: auto auto 1fr auto;
+}
+
+/* responsive blog — doit rester à la FIN du fichier pour gagner sur les règles au-dessus */
+@media screen and (max-width: 1024px) {
+  .articles {
+    width: 90%;
+  }
+
+  .article-title,
+  .article-wip {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .newsletter-grid,
+  .newsletter-form {
+    width: min(90%, 500px);
+    margin: 1.5em auto 0;
+  }
+
+  .newsletter1 {
+    text-align: center;
+  }
+
+  .news1-description {
+    text-align: center;
+  }
+
+  .newsletter-form form {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }

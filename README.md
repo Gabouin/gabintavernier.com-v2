@@ -2,7 +2,7 @@
   <br>
   <img width="88" height="31" alt="gaybin badge" src="images/gaybin.png.gif" />
   <br>
-  GABINTAVERNIER.COM
+  NEW.GABINTAVERNIER.COM
   <br>
 </h1>
 
@@ -35,7 +35,7 @@ My "little digital world", a handmade personal website with HTML and CSS.
 
 ## About the Project
 
-**gabintavernier.com** is my personal website, where I share my hardware projects, my analog photography and (soon) my blog/newsletter. Everything is written by hand: no framework, no build step, just HTML and CSS.
+**new.gabintavernier.com** is my personal website, where I share my hardware projects, my analog photography and (soon) my blog/newsletter. Everything is written by hand: no framework, no build step, just HTML and CSS.
 
 ### Features
 
@@ -49,12 +49,12 @@ My "little digital world", a handmade personal website with HTML and CSS.
 
 ## Pages
 
-- `index.html` — home page, with the animated boxes
-- `projects.html` — my hardware projects
-- `photos.html` — my analog photography gallery
-- `role.html` — my experience (Hack Club!)
-- `blog.html` — blog/newsletters archive + subscription form
-- `contact.html` — contact cards (hidden from the navbar, but still alive)
+- `index.html` home page, with the animated boxes
+- `projects.html` my hardware and software projects - will push it once finished
+- `photos.html` my analog photography gallery
+- `role.html` my experience at Hack Club and outside of it
+- `blog.html` blog/newsletters archive + subscription form
+- `contact.html` contact cards (hidden from the navbar, because it's useless for the moment, I have a github and instagram link on every page but it's still alive)
 
 ## Screenshots
 
@@ -77,11 +77,10 @@ My "little digital world", a handmade personal website with HTML and CSS.
 
 ## Repository Structure
 
-- `*.html` — one file per page
-- `main.css` — the single stylesheet for the whole site
-- `script.js` — tap support for the home page box animations
-- `images/` — site assets (photos, badges, box illustrations)
-- `images/readme/` — screenshots used in this README
+- `*.html` one file per page
+- `main.css` the single stylesheet for the whole site
+- `images/` site assets (photos, badges, box illustrations)
+- `images/readme/` screenshots used in this README
 
 ## Contributing
 
@@ -89,13 +88,14 @@ Suggestions, fixes and ideas are welcome! Please read the [CONTRIBUTING.md](CONT
 
 ## License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**, see the [LICENSE](LICENSE) file for details.
 
 ## Credits
 
 This project uses:
 
-- **GitHub Pages** - hosting
-- **[Buttondown](https://buttondown.com)** - newsletter
-- **[Pagering](https://pagering.gideon.sh)** - the webring in the footer
-- **Hack Club** - the community that made me want a website in the first place
+- **GitHub Pages** for the hosting
+- **[Buttondown](https://buttondown.com)** for the newsletter
+- **[Pagering](https://pagering.gideon.sh)** for the webring in the footer
+- **Hack Club** yay the community that made me want a website in the first place
+- **[chester.how](https://chester.how)** the website I took inspiration from

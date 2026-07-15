@@ -31,7 +31,7 @@ My "little digital world", a handmade personal website with HTML and CSS.
 
 <br>
 <p align="center">
-  <img width="90%" alt="home page" src="images/readme/home.png" />
+  <img width=80% alt="Screenshot 2026-07-16 at 12 15 07 am" src="https://github.com/user-attachments/assets/6c42a8c3-ce39-4f84-be72-447cd1dc0189" />
 </p>
 
 ## About the Project

@@ -1,6 +1,7 @@
 <h1 align="center">
   <br>
-  <img width="88" height="31" alt="gaybin badge" src="images/gaybin.png.gif" />
+  <img width="275" height="142" alt="image" src="https://github.com/user-attachments/assets/7cebf597-f7a5-44a0-9f6a-aa207ea11022" />
+
   <br>
   NEW.GABINTAVERNIER.COM
   <br>
